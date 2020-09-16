@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  prefecture: 1
+  address: MyString
+  level_type: 1
+  start_at: 2020-09-16 12:55:38
+  end_at: 2020-09-16 12:55:38
+  comment: MyText
+
+two:
+  prefecture: 1
+  address: MyString
+  level_type: 1
+  start_at: 2020-09-16 12:55:38
+  end_at: 2020-09-16 12:55:38
+  comment: MyText
