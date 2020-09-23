@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'home/top'
+  root 'home#top'
   
   resources :teams, only: [:new, :create]
 
