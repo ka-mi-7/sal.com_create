@@ -14,7 +14,9 @@
     <button class='btn btn-light'>サイトマップ</button>
   </div>
   <div class="col">
-    <button class='btn btn-light'>チーム登録</button>
+    <%= link_to teams_new_path do %>
+      <button class='btn btn-light'>チーム登録</button>
+    <% end %>
   </div>
   <div class="col">
     <button class='btn btn-light'>ログイン</button>

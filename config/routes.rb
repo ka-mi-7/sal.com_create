@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'recruits/new'
+
+  get 'teams/new'
+
   root 'home#top'
   
   resources :teams, only: [:new, :create]
